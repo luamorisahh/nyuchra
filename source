@@ -4,7 +4,7 @@ getgenv().Prediction = 0.1248710929171
 getgenv().AimPart = "HumanoidRootPart"	
 getgenv().Key = "Q"	
 getgenv().DisableKey = "P"	
-	
+
 getgenv().FOV = true	
 getgenv().ShowFOV = false	
 getgenv().FOVSize = 55	
@@ -35,7 +35,7 @@ local SelectedDisableKey = getgenv().DisableKey
 	
 function Notify(tx)	
     SG:SetCore("SendNotification", {	
-        Title = "Evan's Camlock",	
+        Title = "Risky's Camlock",	
         Text = tx,	
 Duration = 5	
     })	
